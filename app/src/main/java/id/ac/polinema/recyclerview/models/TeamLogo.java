@@ -5,9 +5,11 @@ public class TeamLogo {
    private String logo;
    private String name;
 
+
     public TeamLogo(String logo, String name) {
         this.logo = logo;
         this.name = name;
+
     }
 
     //ini method setter//
@@ -23,6 +25,8 @@ public class TeamLogo {
         return this.logo;
 
     }
+
+
     public String getName(){
         return this.name;
     }
